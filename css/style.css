@@ -13,7 +13,7 @@
     }
   }
 ::-webkit-scrollbar {
-    width: .8rem;
+    width: 3px;
   }
   
   ::-webkit-scrollbar-thumb {
@@ -29,6 +29,9 @@
   ::-webkit-scrollbar-track {
     background: #f0f0f0;
   }
+  :root {
+    --swiper-theme-color: #11ece5 !important;
+    }
 /* =================Header-START============================== */
 .nav-2023--glass{
     position: sticky;
@@ -271,11 +274,12 @@ span {
     }
 
 /* ==============Card============== */
-
+.hero-form{
+    padding: 0px 10px;
+}
 .form-card{
     display: block;
     max-width: 640px;
-    padding-top: 50px !important;
     padding: 50px;
     flex: 1;
     border-radius: 16px;
@@ -359,7 +363,6 @@ span {
 
 /* ======================project reviews======================= */
 .projects-review h1{
-    font-size: 25px;
     letter-spacing: 1px;
     color: turquoise;
     text-transform: uppercase;
@@ -437,8 +440,8 @@ span {
     background: #090f19;
     align-items: center;
 }
-.head-review .sub-heading{
-    font-size: 25px;
+.head-review h1{
+    font-size: 1.7rem;
     letter-spacing: 1px;
     color: turquoise;
     text-transform: uppercase;
@@ -446,10 +449,9 @@ span {
     font-family: 'Nunito Sans', sans-serif;
     justify-content: center;
     margin-bottom: 20px;
-    font-weight: bolder;
 }
 .head-review .client-review{
-    font-size: 30px;
+    font-size: 32px;
     letter-spacing: 1px;
     color: #f0f0f0;
     display: flex;
