@@ -1,0 +1,77 @@
+  
+@media screen and (max-width: 450px) {
+    .nav-2023----navlinks {
+        display: none;
+    }
+    .nav-2023{
+        padding: 10px 20px;
+    }
+    .mobile-hamburger {
+        display: flex;
+    }
+    .hero-grid-content{
+        grid-template-columns:1fr;
+    }
+    .strong{
+        font-size: 2.7rem;
+    }
+    .hero-section{
+        padding: 80px 16px;
+    }
+    .hero-head{
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+    }
+    .hero-subtitles{
+        font-size: 14px;
+    }
+    .btn,button{
+        font-size: 16px;
+    }
+    .support{
+        margin-top: 15px;
+    }
+    .form-card{
+        padding: 30px;
+    }
+    .form-grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .submit-btn{
+        display: flex;
+        justify-content: center;
+    }
+    /* =========SECTION-2====== */
+    .projects-review{
+        padding: 10px;
+    }
+    .row{
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+    .head-review{
+        text-align: center;
+        padding: 0px 6px;
+    }
+    swiper-container{
+        width: 90%;
+    }
+    .icon-content{
+        width: 15rem;
+        height: 14rem;
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+    .review-content p{
+        margin-top: 0px;
+    }
+    .client-img{
+        padding: 1rem;
+        font-size: 14px !important;
+    }
+    .client-img img {
+        width: 50px;
+        height: 50px;
+    }
+}
