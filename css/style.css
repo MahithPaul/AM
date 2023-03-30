@@ -15,7 +15,6 @@
 ::-webkit-scrollbar {
     width: 3px;
   }
-  
   ::-webkit-scrollbar-thumb {
     border-radius: 6px;
     background: #0f1724;
@@ -29,6 +28,9 @@
   ::-webkit-scrollbar-track {
     background: #f0f0f0;
   }
+  ::-webkit-calendar-picker-indicator {
+    font-size: 1.2rem;
+}
   :root {
     --swiper-theme-color: #11ece5 !important;
     }
@@ -321,6 +323,18 @@ span {
     border-radius: 10px;
     position: static;
     z-index: 9999;
+    background-color: #eceaea;
+    outline: none;
+    border: 1px solid #fff;
+}
+.input-style-1{
+    padding: 14px 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    position: static;
+    z-index: 9999;
+    color: #75757d;
     background-color: #eceaea;
     outline: none;
     border: 1px solid #fff;
