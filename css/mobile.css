@@ -1,5 +1,8 @@
   
 @media screen and (max-width: 450px) {
+  ::-webkit-calendar-picker-indicator {
+        font-size: 1rem;
+    }
     .nav-2023----navlinks {
         display: none;
     }
