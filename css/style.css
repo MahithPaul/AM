@@ -449,6 +449,7 @@ span {
 #streams{
     background-color: #090f19;
     padding: 2rem 0;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
